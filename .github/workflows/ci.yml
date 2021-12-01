@@ -6,11 +6,13 @@ on:
       - ./**/README.md
       - ./frontend/**
       - ./**/.gitignore
+      - ./reference/**
   pull_request:
     paths-ignore:
       - ./**/README.md
       - ./frontend/**
       - ./**/.gitignore
+      - ./reference/**
 
 jobs:
   backend-unit-test:
